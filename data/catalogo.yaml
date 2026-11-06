@@ -1,0 +1,44 @@
+# Catálogo de serviços
+# ⚠️ VALORES DE EXEMPLO — troque pelos seus preços e prazos reais.
+# preco: null  -> o bot responde "sob avaliação" em vez de inventar um valor.
+
+servicos:
+  revisao:
+    nome: Revisão completa
+    descricao: desmontagem total, limpeza, lubrificação e ajuste
+    precos:
+      molinete: 80.00
+      carretilha: 100.00
+    prazo_dias: 5
+
+  rolamento:
+    nome: Troca de rolamento
+    descricao: substituição do rolamento + revisão da peça
+    precos:
+      molinete: 60.00
+      carretilha: 70.00
+    pecas_a_parte: true
+    prazo_dias: 7
+
+  drag:
+    nome: Troca/ajuste de drag (freio)
+    descricao: troca das arruelas de freio e ajuste
+    precos:
+      molinete: 50.00
+      carretilha: 60.00
+    pecas_a_parte: true
+    prazo_dias: 5
+
+  defeito:
+    nome: Conserto de defeito (peça quebrada, travando, barulho)
+    descricao: diagnóstico do problema e orçamento antes de consertar
+    precos:
+      molinete: null
+      carretilha: null
+    prazo_dias: null
+
+atendimento:
+  endereco: "Rua Exemplo, 123 - Porto Alegre/RS"
+  horario: "Seg a Sex, 18h às 21h | Sáb, 9h às 13h"
+  entrega: "Pode trazer no local ou enviar pelos Correios"
+  pagamento: ["Pix", "Cartão de crédito/débito", "Dinheiro"]

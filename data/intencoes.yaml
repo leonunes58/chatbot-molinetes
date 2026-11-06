@@ -1,0 +1,300 @@
+# Dataset de treino: frases de exemplo para cada intenção.
+# Quanto mais variadas (gírias, abreviações, erros de digitação), melhor o modelo generaliza.
+# Dica: quando o bot errar com um cliente real, adicione a frase aqui e treine de novo.
+
+saudacao:
+  - oi
+  - ola
+  - bom dia
+  - boa tarde
+  - boa noite
+  - opa tudo bem
+  - e ai
+  - oi tudo bom?
+  - olá, boa tarde
+  - oie
+  - fala amigo
+  - salve
+  - bom dia, tudo certo?
+  - eae beleza
+  - oi, alguem ai?
+  - salve salve
+  - fala parceiro
+  - fala ai
+  - eae
+  - oi boa noite tudo bem
+  - ola bom dia
+  - salve mano
+  - opa
+  - oi amigo
+  - boa tarde amigo
+
+lista_servicos:
+  - quais servicos voces fazem
+  - o que vcs consertam
+  - vcs fazem manutencao de molinete?
+  - trabalham com carretilha?
+  - quais tipos de manutencao tem
+  - me passa a lista de servicos
+  - vc arruma carretilha?
+  - o que voces oferecem
+  - fazem conserto de equipamento de pesca?
+  - tem tabela de servicos?
+  - quais manutencoes vc faz
+  - voces mexem com molinete shimano?
+  - que tipo de servico vc faz
+  - me fala os servicos
+  - vcs atendem carretilha perfil baixo?
+  - voces trabalham com molinete?
+  - trabalham com carretilha daiwa?
+  - consertam molinete de pesca?
+  - que servicos tem
+  - voces fazem o que exatamente
+  - atende molinete grande?
+  - fazem servico em carretilha de arremesso?
+  - quais servicos estao disponiveis
+  - vcs fazem revisao e troca de pecas?
+  - mexem com equipamento de pesca em geral?
+
+preco_revisao:
+  - quanto custa a revisao
+  - qto fica pra limpar meu molinete
+  - valor da manutencao da carretilha
+  - quanto e uma limpeza completa
+  - preco da revisao do molinete
+  - quanto vc cobra pra lubrificar a carretilha
+  - quanto sai uma revisao geral
+  - qual o valor pra fazer uma limpeza
+  - quero fazer manutencao preventiva, quanto fica?
+  - quanto custa pra revisar a carretilha
+  - valor de uma revisao completa
+  - quanto fica a limpeza e lubrificacao
+  - qnto e a manutencao
+  - preciso revisar meu molinete, qual o preco
+  - me passa o valor da revisao
+  - valor da manutencao
+  - quanto cobra a manutencao da carretilha
+  - preco pra limpeza da carretilha
+  - quanto fica uma revisao no molinete
+  - manutencao completa quanto custa
+  - qual o preco da limpeza
+  - quanto custa lubrificar o molinete
+  - valor revisao carretilha
+  - quanto voce cobra a revisao
+  - preco manutencao molinete
+
+troca_rolamento:
+  - quanto custa trocar o rolamento
+  - vcs trocam rolamento?
+  - o rolamento ta fazendo barulho, quanto fica a troca
+  - preco da troca de rolamento da carretilha
+  - quero trocar os rolamentos
+  - valor pra trocar rolamento do molinete
+  - meu molinete ta com rolamento enferrujado
+  - qnto fica trocar o rolamento
+  - rolamento travado, da pra trocar?
+  - quanto e a troca de rolamentos
+  - tem rolamento pra trocar?
+  - preciso substituir o rolamento
+  - fazem troca de rolamento em carretilha?
+  - rolamento ta chiando
+  - valor troca rolamento
+  - rolamento enferrujado
+  - o rolamento oxidou
+  - rolamento ta pesado
+  - trocar rolamento da carretilha quanto fica
+  - preciso de rolamento novo
+  - o rolamento esta ruim
+  - troca dos rolamentos do molinete
+  - colocar rolamento novo
+  - rolamento gasto
+  - quanto e o rolamento
+
+troca_drag:
+  - quanto custa trocar o drag
+  - o freio da carretilha ta falhando
+  - o drag nao segura o peixe
+  - preco pra ajustar o freio
+  - vcs trocam as arruelas do drag?
+  - meu freio ta dando tranco
+  - quanto fica trocar a fricção do molinete
+  - drag ta escorregando
+  - quero trocar o freio da carretilha
+  - valor da troca do drag
+  - o freio nao trava mais
+  - ajuste de drag quanto fica
+  - fricção ruim, tem conserto?
+  - trocar arruela de freio
+  - o drag ta duro
+  - friccao ruim
+  - o freio patina
+  - drag fraco
+  - quanto custa trocar o freio
+  - freio do molinete ruim
+  - o freio nao funciona direito
+  - drag soltando linha sozinho
+  - trocar friccao da carretilha
+  - ajustar o drag
+  - o freio ta travando
+
+orcamento_defeito:
+  - meu molinete quebrou
+  - a manivela quebrou
+  - a carretilha travou e nao gira
+  - ta fazendo um barulho estranho
+  - quebrou o pick up do molinete
+  - a carretilha caiu e entortou
+  - nao recolhe a linha
+  - o carretel nao gira
+  - a alavanca quebrou, tem conserto?
+  - meu molinete ta com defeito
+  - entrou agua e areia na carretilha
+  - a engrenagem ta pulando
+  - travou tudo, consegue arrumar?
+  - o anti reverso parou de funcionar
+  - quanto fica pra consertar, ta quebrado
+  - parou de funcionar
+  - ta travado
+  - travou, tem conserto?
+  - consegue arrumar meu molinete?
+  - ta com problema na engrenagem
+  - quebrou uma peca
+  - o anti reverso nao funciona
+  - fazendo barulho quando gira
+  - deu defeito
+  - ta estragado, quanto fica o conserto?
+
+prazo:
+  - quanto tempo demora
+  - qual o prazo de entrega
+  - fica pronto quando?
+  - em quantos dias fica pronto
+  - demora muito?
+  - consigo pegar amanha?
+  - qual o prazo da revisao
+  - quando posso buscar
+  - preciso pra semana que vem, da tempo?
+  - quantos dias leva
+  - tem urgencia?
+  - fica pronto ate sexta?
+  - qual a demora media
+  - quanto tempo leva o conserto
+  - ja ta pronto?
+  - quando fica pronto
+  - qual o prazo
+  - consigo retirar amanha?
+  - quando posso pegar
+  - da tempo ate o fim de semana?
+  - e urgente, quanto tempo leva?
+  - prazo pra entregar pronto
+  - em quanto tempo voce devolve
+  - sai essa semana?
+  - quantos dias pra ficar pronto a revisao
+
+endereco_horario:
+  - onde voces ficam
+  - qual o endereco
+  - qual o horario de atendimento
+  - que horas abre
+  - onde levo o molinete
+  - vcs abrem sabado?
+  - como faco pra entregar
+  - posso mandar pelos correios?
+  - qual a localizacao
+  - ate que horas atende
+  - onde fica a loja
+  - me manda a localizacao
+  - funciona domingo?
+  - tem como buscar em casa?
+  - qual o local pra deixar a carretilha
+  - onde voces estao
+  - abre sabado?
+  - abre domingo?
+  - qual o horario
+  - posso enviar pelos correios?
+  - como faco pra levar o molinete
+  - onde deixo o equipamento
+  - endereco por favor
+  - atende de manha?
+  - voces buscam?
+
+pagamento:
+  - quais formas de pagamento
+  - aceita pix?
+  - pode ser no cartao?
+  - parcela?
+  - aceita cartao de credito
+  - como eu pago
+  - da pra pagar em dinheiro?
+  - tem desconto no pix?
+  - aceita debito?
+  - pagamento e antes ou depois?
+  - posso pagar na retirada?
+  - qual a chave pix
+  - parcela em quantas vezes
+  - forma de pagamento
+  - aceitam cartao?
+  - como faco o pagamento
+  - como pago
+  - pix ou cartao?
+  - paga quando?
+  - pago na entrega?
+  - da pra parcelar?
+  - aceita transferencia?
+  - tem que pagar adiantado?
+  - pagamento no cartao de credito
+  - qual a forma de pagar
+
+falar_humano:
+  - quero falar com uma pessoa
+  - tem alguem ai pra falar comigo
+  - falar com atendente
+  - me passa pro responsavel
+  - quero falar com o dono
+  - isso e robo?
+  - nao quero falar com bot
+  - pode me ligar?
+  - atendimento humano por favor
+  - quero falar com o leo
+  - chama alguem
+  - preciso falar com voce direto
+  - tem como alguem me atender
+  - nao entendi, quero falar com uma pessoa
+  - humano
+  - me passa para o responsavel
+  - e um robo?
+  - estou falando com robo?
+  - me liga
+  - pode me ligar por favor
+  - chama o responsavel
+  - quero atendimento de pessoa
+  - fala com alguem de verdade
+  - passa pra alguem
+  - quero conversar com o dono
+
+agradecimento:
+  - obrigado
+  - valeu
+  - obrigada
+  - muito obrigado
+  - vlw
+  - show, valeu
+  - beleza, obrigado
+  - perfeito, obrigado
+  - top
+  - blz
+  - entendi, valeu
+  - ok obrigado
+  - tmj
+  - agradeco
+  - fechou, valeu
+  - agradecido
+  - top, valeu
+  - beleza
+  - show
+  - otimo, obrigado
+  - massa, valeu
+  - obrigadao
+  - valeu mesmo
+  - tranquilo, obrigado
+  - certo, obrigado

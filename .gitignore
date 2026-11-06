@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+# o modelo é gerado pelo treino; não versionamos o binário
+models/*.joblib
